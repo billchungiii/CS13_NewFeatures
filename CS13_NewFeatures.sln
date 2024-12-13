@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Async_Ref_Sample001", "Asyn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enumerable_Ref_Sample001", "Enumerable_Ref_Sample001\Enumerable_Ref_Sample001.csproj", "{F57BFF1E-C557-4919-8C9C-95C2062C78C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllowRefStructSample001", "AllowRefStructSample001\AllowRefStructSample001.csproj", "{9215459B-581D-46A7-BEC8-41BE7A20E080}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{F57BFF1E-C557-4919-8C9C-95C2062C78C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F57BFF1E-C557-4919-8C9C-95C2062C78C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F57BFF1E-C557-4919-8C9C-95C2062C78C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9215459B-581D-46A7-BEC8-41BE7A20E080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9215459B-581D-46A7-BEC8-41BE7A20E080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9215459B-581D-46A7-BEC8-41BE7A20E080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9215459B-581D-46A7-BEC8-41BE7A20E080}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
