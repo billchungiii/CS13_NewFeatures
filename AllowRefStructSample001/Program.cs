@@ -25,6 +25,7 @@ namespace AllowRefStructSample001
             int otherValue = 99999;
             RefStruct other = new RefStruct(ref otherValue);
             Console.WriteLine(other.IsBigger(source));
+            
           
             Func<RefStruct, int> func = (source) => source.Number;
             Action<RefStruct> action = (source) => Console.WriteLine($"action {source.Number}");
