@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35506.116 d17.12
+VisualStudioVersion = 17.12.35506.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParamsModifierSample001", "ParamsModifierSample001\ParamsModifierSample001.csproj", "{6164A670-7425-4260-A1D3-8C0789209C8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LockSample001", "LockSample001\LockSample001.csproj", "{C1D43278-CF58-47E2-9FC6-EAAC742BF22A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EscapeSequenceSample001", "EscapeSequenceSample001\EscapeSequenceSample001.csproj", "{9E05F79F-6E00-4759-995F-4D40FD2ADB68}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{6164A670-7425-4260-A1D3-8C0789209C8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6164A670-7425-4260-A1D3-8C0789209C8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6164A670-7425-4260-A1D3-8C0789209C8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1D43278-CF58-47E2-9FC6-EAAC742BF22A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1D43278-CF58-47E2-9FC6-EAAC742BF22A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1D43278-CF58-47E2-9FC6-EAAC742BF22A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1D43278-CF58-47E2-9FC6-EAAC742BF22A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E05F79F-6E00-4759-995F-4D40FD2ADB68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E05F79F-6E00-4759-995F-4D40FD2ADB68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E05F79F-6E00-4759-995F-4D40FD2ADB68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E05F79F-6E00-4759-995F-4D40FD2ADB68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

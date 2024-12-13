@@ -3,7 +3,7 @@
 namespace ParamsModifierSample001
 {
     /// <summary>
-    /// .NET 9.0
+    /// C# 13.0, .NET 9.0
     /// params collections
     /// </summary>
     internal class Program
