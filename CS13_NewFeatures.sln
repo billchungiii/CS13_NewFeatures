@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewFieldSample001", "NewFie
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartialPropertySamples", "PartialPropertySamples\PartialPropertySamples.csproj", "{A3D24DB9-10CF-4A0A-B102-81788BED90E8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndexerSample001", "IndexerSample001\IndexerSample001.csproj", "{3DABCB77-E881-4389-8715-BEB5F388CE7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{A3D24DB9-10CF-4A0A-B102-81788BED90E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3D24DB9-10CF-4A0A-B102-81788BED90E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3D24DB9-10CF-4A0A-B102-81788BED90E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DABCB77-E881-4389-8715-BEB5F388CE7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DABCB77-E881-4389-8715-BEB5F388CE7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DABCB77-E881-4389-8715-BEB5F388CE7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DABCB77-E881-4389-8715-BEB5F388CE7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
