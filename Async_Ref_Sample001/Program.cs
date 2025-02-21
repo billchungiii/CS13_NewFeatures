@@ -12,7 +12,8 @@
             await Task.Delay(100);
             ref int source = ref GetValue();
             source *= 2;
-            Console.WriteLine(numbers[0]);
+            Console.WriteLine(numbers[0]);            
+            Console.WriteLine(string.Join(",", GetNumbers()));
         }
         static ref int GetValue()
         {            
@@ -22,6 +23,7 @@
         static IEnumerable<int> GetNumbers()
         {
             ref int x = ref numbers[0];
+            yield return x;
             yield return 1;
             yield return 2;
             yield return 3;
