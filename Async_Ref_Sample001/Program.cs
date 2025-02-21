@@ -28,5 +28,15 @@
             yield return 2;
             yield return 3;
         }
+
+        /// 很可惜現在還不能這麼做
+        //static IEnumerable<int> GetNumbers2()
+        //{
+        //    ReadOnlySpan<int> span = numbers;
+        //    foreach (var item in span)
+        //    {
+        //        yield return item;
+        //    }
+        //}
     }
 }
