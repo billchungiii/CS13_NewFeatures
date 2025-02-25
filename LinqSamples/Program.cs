@@ -41,6 +41,7 @@
                 Console.WriteLine($"{item.p.Name} is at index {item.index}");
             }
             Console.WriteLine("**************");
+            // 現在可以這樣寫
             var newIndex = persons.Index();
             foreach (var item in newIndex)
             {
